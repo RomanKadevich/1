@@ -49,13 +49,13 @@ img {
     display: inline-block;
     cursor: pointer;
 }
+
 .header~.accordion .accordion__icon {
     transition: opacity 400ms ease-in-out;
 }
+
 .header:hover~.accordion .accordion__icon {
     opacity: 1;
-   
-    
 }
 
 
@@ -92,13 +92,11 @@ img {
 
 .accordion__img {
     display: block;
-
     transform: scale(0);
 }
 
 .accordion__icon {
     display: inline-block;
-
     opacity: 0;
 }
 
@@ -112,19 +110,17 @@ img {
     margin-bottom: 1rem;
 
 }
-.accordion .accordion__icon {
 
-}
+.accordion .accordion__icon {}
 
 .accordion:hover .accordion__icon {
     opacity: 1;
-    transition: opacity 400ms ease-in-out,transform 400ms ease-in-out;
-   
+    transition: opacity 400ms ease-in-out, transform 400ms ease-in-out;
+
 }
 
 
 .accordion__label:hover .accordion__icon {
-    
     opacity: 1;
     transform: rotate(180deg);
 }
@@ -152,7 +148,6 @@ img {
 }
 
 .accordion__input:checked~.accordion__content .accordion__img {
-
     height: 100%;
     transform: scale(1);
     margin-top: 1rem;
